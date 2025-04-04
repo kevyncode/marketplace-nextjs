@@ -1,36 +1,37 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 Projeto 01 - Desenvolvimento do Layout
 
-## Getting Started
+## 📝 Sobre o projeto
 
-First, run the development server:
+Este projeto foi desenvolvido com o objetivo de recriar um layout proposto no Figma utilizando **Next.js**, **TypeScript** e **Tailwind CSS**. O foco foi criar uma aplicação funcional, responsiva e interativa, seguindo as melhores práticas de desenvolvimento.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+🔗 **Acesse o layout no Figma abaixo:**  
+[Innovation Class - Figma](https://www.figma.com/proto/DqtFxC6312M32mLt8FpJjq/innovation-class?page-id=13%3A673&node-id=13-920&viewport=346%2C140%2C0.11&t=HyGGDSs83f1vbqMJ-1&scaling=scale-down&content-scaling=fixed)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## ✨ Funcionalidades implementadas
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Layout responsivo:**  
+  O layout foi estruturado e estilizado para se adaptar a diferentes tamanhos de tela (Desktop e Mobile), utilizando Tailwind CSS.
+- **Funcionalidade de busca:**  
+  Um campo de busca foi implementado. Ao clicar no botão da lupa, o texto digitado é exibido abaixo com a mensagem:  
+  `"Você buscou por: 'assunto buscado'"`.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Carrosséis interativos:**  
+  A interação dos carrosséis foi implementada utilizando a biblioteca **Swiper.js**.
 
-## Learn More
+## 🛠️ Tecnologias utilizadas
 
-To learn more about Next.js, take a look at the following resources:
+- **Next.js:** Framework React para desenvolvimento web.
+- **TypeScript:** Linguagem para adicionar tipagem estática ao JavaScript.
+- **Tailwind CSS:** Framework CSS para estilização rápida e responsiva.
+- **Swiper.js:** Biblioteca para criação de carrosséis interativos.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🚀 Como executar o projeto
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. Clone o repositório.
+2. Instale as dependências com `npm install` ou `yarn install`.
+3. Inicie o servidor de desenvolvimento com `npm run dev` ou `yarn dev`.
+4. Abra [http://localhost:3000](http://localhost:3000) no navegador para visualizar o projeto.
 
-## Deploy on Vercel
+## 🌟 Resultado final
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+O projeto recria o layout proposto no Figma com fidelidade, garantindo responsividade e interatividade, utilizando tecnologias modernas como Next.js, TypeScript e Tailwind CSS.

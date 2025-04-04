@@ -1,0 +1,20 @@
+/* PromotionAlert Animation */
+@keyframes marquee {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.animate-marquee {
+  display: inline-block;
+  animation: marquee 10s linear infinite;
+}
+
+@media (min-width: 640px) {
+  .animate-marquee {
+    animation: none;
+  }
+}

@@ -3,10 +3,7 @@ import HeaderPage from "@/app/Components/HeaderPage";
 import Banner from "@/app/Components/Banner";
 import ProductCarousel from "@/app/Components/ProductCarousel";
 import InfoProduct from "@/app/Components/InfoProduct";
-import InfoProduct2 from "@/app/Components/InfoProduct2";
-import BannerInfo from "@/app/Components/BannerInfo";
-import Newsletter from "@/app/Components/NewsLetter";
-import Footer from "@/app/Components/Footer";
+import InfoProduct2 from "@/app/Components/InfoProduct2"; // Importação do novo componente
 
 export default function Home() {
   return (
@@ -35,32 +32,20 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="w-full flex justify-center items-center mt-6 bg-[#DEDEDE]">
+        <div
+          className="w-full flex justify-center items-center mt-6 bg-[#DEDEDE]"
+          style={{ height: "567px" }}
+        >
           {/* Novo Banner */}
           <InfoProduct2 />
         </div>
 
         <div className="flex justify-center mt-6">
-          <div className="w-full max-w-7xl">
-            <InfoProduct />
-            <ProductCarousel />
-          </div>
+          <InfoProduct />
         </div>
 
-        {/* Banner de informações */}
-        <div className="flex justify-center mt-6">
-          <BannerInfo />
-        </div>
-
-        {/* Seção de Newsletter */}
-        <div className="flex justify-center mt-6">
-          <Newsletter />
-        </div>
-
-        {/* Rodapé */}
-        <div className="flex justify-center mt-6 w-full">
-          <Footer />
-        </div>
+        {/* Restante do conteúdo */}
+        <div className="p-6"></div>
       </section>
     </main>
   );
