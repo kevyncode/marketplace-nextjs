@@ -42,6 +42,6 @@ As capturas de tela do projeto estão disponíveis na pasta `public/screenshots`
 
 ### Página Inicial
 
-![Página Inicial](/public/inicialmkt.png)
+![Página Inicial](/public/screenshots/inicialmkt.png)
 
-![Página Inicial](/public/menu.png)
+![Página Inicial](/public/screenshots/menu.png)
