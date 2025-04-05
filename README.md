@@ -1,4 +1,4 @@
-# 🚀 Projeto 01 - Desenvolvimento do Layout
+# 🚀 Marketplace Avanti
 
 ## 📝 Sobre o projeto
 
@@ -35,3 +35,13 @@ Este projeto foi desenvolvido com o objetivo de recriar um layout proposto no Fi
 ## 🌟 Resultado final
 
 O projeto recria o layout proposto no Figma com fidelidade, garantindo responsividade e interatividade, utilizando tecnologias modernas como Next.js, TypeScript e Tailwind CSS.
+
+## 📸 Capturas de Tela
+
+As capturas de tela do projeto estão disponíveis na pasta `public/screenshots`. Aqui estão algumas prévias:
+
+### Página Inicial
+
+![Página Inicial](/public/inicialmkt.png)
+
+![Página Inicial](/public/menu.png)
